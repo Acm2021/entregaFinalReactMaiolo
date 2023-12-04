@@ -1,0 +1,46 @@
+.Counter {
+    display: flex;
+    flex-direction: column; /* Cambiado de row a column */
+    align-items: center;
+    justify-content: center;
+    max-width: 200px;
+    margin: 0 auto;
+    border: 1px solid #ccc; /* Borde alrededor del contador */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 10px;
+  }
+  
+  .Controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Separación entre los controles y el botón */
+  }
+  
+  .Button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0 5px; /* Separación entre los botones */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .Number {
+    margin: 0 10px;
+  }
+  
+  .AddToCartButton {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .AddToCartButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }

@@ -1,21 +1,20 @@
+import { Link, NavLink } from "react-router-dom"
 import CartWidget from "../CartWidget/CartWidget"
+import "./NavBar.css";
 
 const NavBar = ()=>{
         return(
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-
-                <h3 className="navbar-brand">ChulisInn</h3>
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <Link to='/'className="navbar-brand">
+                        <h3>Chulis Outdoor</h3>
+                    </Link>
                     <div className="collapse navbar-collapse" id="navbarNav">
-                        <button className="nav-item " > Mochilas </button>
-                        <button className="nav-item "> Calzado </button>
-                        <button className="nav-item "> Linternas </button>
-                    </div>
-                </div>
+                        <div className="navbar-nav">
+                            <NavLink to={`/category/Mochilas`}className={({isActive})=>isActive ? 'ActiveOption': 'Option'}>Mochilas</NavLink>
+                            <NavLink to={`/category/Calzado`}className={({isActive})=>isActive ? 'ActiveOption': 'Option'}>Calzado</NavLink>
+                            <NavLink to={`/category/Linternas`}className={({isActive})=>isActive ? 'ActiveOption': 'Option'}>Linternas</NavLink>
+                        </div>
+                    </div>    
                 <CartWidget/>
             </nav>
         )

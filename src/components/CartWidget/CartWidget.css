@@ -1,0 +1,22 @@
+.cart-widget-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .cart-icon {
+    width: 50px;
+    height: 35px;
+    margin-right: 10px; /* Ajusta el espacio entre la imagen y el contador según tu preferencia */
+  }
+  
+  .cart-counter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #007bff; /* Color de fondo del contador */
+    color: #fff; /* Color del texto del contador */
+    border-radius: 50%; /* Bordes redondeados para el contador */
+    padding: 5px 8px; /* Ajusta el relleno del contador según tu preferencia */
+    font-size: 12px; /* Tamaño del texto del contador */
+  }

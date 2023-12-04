@@ -1,0 +1,41 @@
+.navbar {
+    padding: 10px;
+  }
+  
+  .navbar-brand h3 {
+    margin: 0;
+  }
+  
+  .navbar-nav .nav-link {
+    margin-right: 10px;
+  }
+  
+  .Categories {
+    margin-right: auto;
+  }
+  
+  /* Estilo para el enlace activo */
+  .navbar-nav .nav-link.active {
+    color: #007bff; /* Puedes cambiar el color según tu preferencia */
+  }
+
+  /* Estilo para la clase Option y ActiveOption */
+.Option,
+.ActiveOption {
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+/* Estilo por defecto para la clase Option */
+.Option {
+  color: #000; /* Puedes ajustar el color del texto según tu preferencia */
+  background-color: #f8f9fa; /* Puedes ajustar el color de fondo según tu preferencia */
+}
+
+/* Estilo para la clase ActiveOption cuando el enlace está activo */
+.ActiveOption {
+  color: #fff; /* Puedes ajustar el color del texto cuando está activo según tu preferencia */
+  background-color: #007bff; /* Puedes ajustar el color de fondo cuando está activo según tu preferencia */
+}

@@ -1,0 +1,32 @@
+.ListGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .ListGroup > div {
+    flex: 1 1 24%;
+    max-width: 24%;
+    margin: 1%;
+  }
+  
+  @media (max-width: 992px) {
+    .ListGroup > div {
+      flex: 1 1 32%;
+      max-width: 32%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .ListGroup > div {
+      flex: 1 1 48%;
+      max-width: 48%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .ListGroup > div {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
