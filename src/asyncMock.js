@@ -9,7 +9,7 @@ const products = [
     {id: '7', name: 'Zapatillas Deportivas', price: 49.99, category: 'Calzado', img: 'https://http2.mlstatic.com/D_NQ_NP_766122-MLA49777209163_042022-O.webp', stock: 15, description: 'Zapatillas ideales para actividades deportivas.'},
     {id: '8', name: 'Botas de Montaña', price: 79.99, category: 'Calzado', img: 'https://http2.mlstatic.com/D_NQ_NP_766122-MLA49777209163_042022-O.webp', stock: 12, description: 'Botas resistentes para montañismo.'},
     {id: '9', name: 'Zapatos Casuales', price: 29.99, category: 'Calzado', img: 'https://http2.mlstatic.com/D_NQ_NP_766122-MLA49777209163_042022-O.webp', stock: 18, description: 'Zapatos cómodos para uso diario.'},
-   
+    {id: '10', name: 'Zapatos Casuales', price: 29.99, category: 'Calzado', img: 'https://http2.mlstatic.com/D_NQ_NP_766122-MLA49777209163_042022-O.webp', stock: 18, description: 'Zapatos cómodos para uso diario.'},
   ];
 
 export const getProducts=()=>{

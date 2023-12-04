@@ -25,9 +25,9 @@ function ItemListContainer({greeting}){
 
 
     return(
-            <div className="container mt-4">
+            <div className="container">
                 <h1>{greeting}</h1>
-                <div className="ListGroup">
+                <div>
                 <ItemList products={products}/>
                 </div>
             </div>
